@@ -1,5 +1,5 @@
 # RestApiTesting.Framework.Leopard <img src ="RestApiTesting.Framework.Leopard/images/leopard.jpg" width=139>
-This is a RESTful API testing Framework using Java, Maven, JUnit, REST Assured and Jackson to test JSONPlaceholder REST API.
+This is a RESTful API testing Framework using Maven, JUnit, REST Assured and Jackson to test JSONPlaceholder REST API.
 
 ## Project Natures
 
