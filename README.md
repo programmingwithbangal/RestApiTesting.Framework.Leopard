@@ -33,3 +33,32 @@ https://github.com/FasterXML/jackson
 
 ## Integrated Development Environment
 Eclipse IDE is used to develop this Framework.
+
+### Run Tests
+* Open file in Eclipse: ..\RestApiTesting.Framework.Leopard\src\test\java\runner\TestRunner.java
+* Right click => Run As
+* JUnit Test
+* Right click on runner.TestRunner
+* Run
+<img src ="RestApiTesting.Framework.Leopard/images/runjunittests.png" width=350>
+
+#### Shortcut:
+* Alt + Shift + X, T
+
+### Run Tests with JUnit Explorer
+* Window => Show View => Other... (Alt + Shift + Q, Q)
+* Java => JUnit
+* Right click on runner.TestRunner
+* Run
+<img src ="RestApiTesting.Framework.Leopard/images/junitexplorer1.png" width=350>
+<img src ="RestApiTesting.Framework.Leopard/images/junitexplorer2.png" width=350>
+<img src ="RestApiTesting.Framework.Leopard/images/junitexplorer3.png" width=350>
+
+### Run Tests with Command Prompt/Windows PowerShell
+* Open Folder in File Explorer: ..\RestApiTesting.Framework.Leopard (where you have the "pom.xml" file)
+* Open Command Prompt/Windows PowerShell
+* Run "mvn clean test"
+
+#### Notes ('mvn' is not recognized as an internal or external command)
+* Download "apache-maven-3.6.1-bin.tar.gz" from "https://maven.apache.org/download.cgi#"
+* Set the Environment Variables
