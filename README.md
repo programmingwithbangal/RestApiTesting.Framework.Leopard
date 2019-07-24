@@ -38,8 +38,6 @@ Eclipse IDE is used to develop this Framework.
 * Open file in Eclipse: ..\RestApiTesting.Framework.Leopard\src\test\java\runner\TestRunner.java
 * Right click => Run As
 * JUnit Test
-* Right click on runner.TestRunner
-* Run
 <img src ="RestApiTesting.Framework.Leopard/images/runjunittests.png" width=350>
 
 #### Shortcut:
