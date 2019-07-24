@@ -11,13 +11,7 @@
     	<artifactId>rest-assured</artifactId>
     	<version>3.3.0</version>
 	</dependency>
-	
-	<dependency>
-  		<groupId>org.testng</groupId>
-  		<artifactId>testng</artifactId>
-  		<version>6.10</version>
-	</dependency>
-  
+	  
 	<dependency>
     	<groupId>junit</groupId>
     	<artifactId>junit</artifactId>

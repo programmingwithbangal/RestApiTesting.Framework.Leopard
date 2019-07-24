@@ -10,6 +10,6 @@ import tests.UpdatePosts;
 
 @RunWith(Suite.class)
 @Suite.SuiteClasses({CreatePosts.class, UpdatePosts.class, PatchPosts.class, DeletePosts.class, GetPosts.class})
-public class Runner 
+public class TestRunner 
 {	
 }

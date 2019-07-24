@@ -1,7 +1,8 @@
 package tests;
 
+import static org.junit.Assert.*;
+
 import java.util.Map;
-import org.testng.Assert;
 import helpers.JsonProcessing;
 import helpers.RestAssuredHelper;
 import io.restassured.RestAssured;
@@ -29,7 +30,7 @@ public class BaseTests
 	{
 		int actualStatusCode = response.getStatusCode();
 		System.out.println("Response Status Code: " + actualStatusCode);
-		Assert.assertEquals(actualStatusCode, expectedStatusCode);
+		assertEquals(expectedStatusCode, actualStatusCode);
 	}
 	
 	public void AssertContent(Object postModel, Response response) 
@@ -40,6 +41,6 @@ public class BaseTests
 		Map<?, ?> expectedResponseBody = data.ConvertModelToMap(postModel);
 		System.out.println("Expected Response Content:" + expectedResponseBody);
 
-		Assert.assertEquals(actualResponseBody, expectedResponseBody);
+		assertEquals(expectedResponseBody, actualResponseBody);
 	}	
 }
