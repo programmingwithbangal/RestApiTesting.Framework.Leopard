@@ -10,25 +10,21 @@ public class PostModel
 
     private int userId;
 
-    public PostModel() 
-	{
+    public PostModel() {
 	}
 
-    public PostModel(String body) 
-    {
+    public PostModel(String body) {
     	setBody(body);
  	}
 
-    public PostModel(int userId, int id, String title, String body) 
-    {
+    public PostModel(int userId, int id, String title, String body) {
        	setId(id);
    	    setTitle(title);
     	setBody(body);
     	setUserId(userId);
  	}
     
-    public PostModel(int userId, String title, String body) 
-    {
+    public PostModel(int userId, String title, String body) {
    	    setTitle(title);
     	setBody(body);
     	setUserId(userId);
